@@ -1,0 +1,14 @@
+package tree;
+
+public class PrimAlgPractice {
+	
+	static void PrimeMST(int[][] graph){
+		static int v=5;
+		int[] parent=new int[graph.V];
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

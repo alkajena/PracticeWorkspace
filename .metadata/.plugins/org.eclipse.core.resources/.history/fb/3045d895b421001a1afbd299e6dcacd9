@@ -1,0 +1,18 @@
+package tree;
+
+public class SpanningTreePractice {
+	static int V;
+	static int E;
+	static Edge[] edge;
+	
+	static class Edge{
+		int src;
+		int dest;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

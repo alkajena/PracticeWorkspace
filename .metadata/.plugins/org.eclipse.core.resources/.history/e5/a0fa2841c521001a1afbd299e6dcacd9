@@ -1,0 +1,22 @@
+package tree;
+
+public class PrimAlgPractice {
+	
+	static void PrimeMST(int[][] graph){
+		int v=5;
+		int[] parent=new int[v];
+		boolean[] mst=new boolean[v];
+		int[] key=new int[v];
+		
+		for(int i=0;i<v;i++){
+			mst[i]=false;
+			key[i]=Integer.MAX_VALUE;
+			
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

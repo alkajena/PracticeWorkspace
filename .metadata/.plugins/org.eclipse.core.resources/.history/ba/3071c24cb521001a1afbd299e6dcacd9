@@ -1,0 +1,30 @@
+package tree;
+
+public class SpanningTreePractice {
+	static int v;
+	static int e;
+	static Edge[] edge;
+	
+	static class Edge{
+		int src;
+		int dest;
+	}
+	
+	public SpanningTreePractice(int V,int E){
+		this.v=V;
+		this.e=E;
+		edge=new Edge[this.e];
+		for(int i=0;i<this.e;i++){
+			edge[i]=new Edge();
+		}
+	}
+	
+	static int findcycle(SpanningTreePractice graph){
+		int[] parent=new int[graph.v];
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

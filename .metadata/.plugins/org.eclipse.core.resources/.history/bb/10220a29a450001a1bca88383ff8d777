@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/restdb
+spring.datasource.username=root
+spring.datasource.password=Hanuman@19948
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+getEmployees.url=http://localhost:8080/springresttemplate/Employee/getEmployeeData
+getEmployeeById.url=http://localhost:8080/springresttemplate/Employee/getEmployeeByIdData
+postEmployee.url=ttp://localhost:8080/springresttemplate/Employee/postEmployeeData

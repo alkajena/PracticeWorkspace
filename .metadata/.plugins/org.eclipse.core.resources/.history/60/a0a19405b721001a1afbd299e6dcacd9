@@ -1,0 +1,12 @@
+package tree;
+
+public class KruskalAlgPractice {
+	static int v;
+	static int e;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

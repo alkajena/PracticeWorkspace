@@ -1,0 +1,27 @@
+package tree;
+
+public class KruskalAlgPractice {
+	static int v;
+	static int e;
+	static Edge[] edge;
+	
+	static class Edge implements Comparable<Edge>{
+		 int src;
+		 int dest;
+		 int weight;
+		@Override
+		public int compareTo(Edge edge) {
+			return this.weight-edge.weight;
+		}
+	}
+	
+	public KruskalAlgPractice(int V,int E){
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
